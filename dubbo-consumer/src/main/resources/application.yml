@@ -1,0 +1,9 @@
+server:
+  port: 9001
+dubbo:
+  scan:
+    basePackages: com.jt
+  application:
+    name: consumer-user
+  registry:
+    address: zookeeper://192.168.17.129:2181
